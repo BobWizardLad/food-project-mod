@@ -1,9 +1,13 @@
-# Fabric Example Mod
+# Brew Project Mod
 
-## Setup
+## About
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Brew project, or 'Brew" is a mod focused on adding tea into minecraft in a way that extends potion brewing rather than overriding it. Teas will be separate, but will use potions as a prequisite reagent in the later stages of the mod.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+TODO -- Intent on CC BY-SA
+
+## Credits
+
+Credit to fabric-example-mod template from devs at https://github.com/FabricMC/fabric-example-mod, a good resource and starting point for a new MC fabric dev like myself
