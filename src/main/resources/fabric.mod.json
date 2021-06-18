@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "brewprojectmod",
   "version": "${version}",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Brew Project, or 'Brew', is a mod that adds tea to the game that gives unique effects and expands the vanilla brewing system. Credit to https://github.com/FabricMC/fabric-example-mod for fabric modding template, thanks!",
   "authors": [
-    "Me!"
+    "BobWizardLad"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+
   ],
 
   "depends": {
