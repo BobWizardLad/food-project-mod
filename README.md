@@ -6,8 +6,12 @@ Brew project, or 'Brew" is a mod focused on adding tea into minecraft in a way t
 
 ## License
 
-TODO -- Intent on CC BY-SA
+GPL-3.0
 
 ## Credits
 
 Credit to fabric-example-mod template from devs at https://github.com/FabricMC/fabric-example-mod, a good resource and starting point for a new MC fabric dev like myself
+
+## Code Stuff
+
+modid: "brewprojectmod"
