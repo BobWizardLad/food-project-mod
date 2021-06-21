@@ -3,7 +3,7 @@
   "id": "brewprojectmod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Brew Project",
   "description": "Brew Project, or 'Brew', is a mod that adds tea to the game that gives unique effects and expands the vanilla brewing system. Credit to https://github.com/FabricMC/fabric-example-mod for fabric modding template, thanks!",
   "authors": [
     "BobWizardLad"
@@ -13,8 +13,8 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/brewprojectmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
