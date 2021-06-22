@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "brewprojectmod:blocks/green_tea_bush_stage2"
+  }
+}
