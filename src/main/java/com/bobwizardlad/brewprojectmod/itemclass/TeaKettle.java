@@ -1,7 +1,5 @@
 package com.bobwizardlad.brewprojectmod.itemclass;
 
-import net.minecraft.fluid.Fluid;
-import net.minecraft.item.BucketItem;
 import net.minecraft.item.GlassBottleItem;
 import net.minecraft.item.Item;
 
