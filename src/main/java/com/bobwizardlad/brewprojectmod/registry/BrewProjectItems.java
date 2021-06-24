@@ -12,7 +12,7 @@ public class BrewProjectItems {
     public static final Item SEMIFERMENTED_TEA_LEAF = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));
     public static final Item FERMENTED_TEA_LEAF = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));
     public static final Item MUSHY_TEA_LEAF = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));
-    public static final Item MUG = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));
+    public static final Item MUG = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(4));
     public static final Item TEA_KETTLE = new TeaKettle(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
     public static final Item TEA_KETTLE_COLD = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
     public static final Item TEA_KETTLE_HOT = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));

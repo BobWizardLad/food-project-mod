@@ -1,18 +1,12 @@
 package com.bobwizardlad.brewprojectmod.itemclass;
 
 import com.bobwizardlad.brewprojectmod.registry.BrewProjectItems;
-import net.minecraft.entity.AreaEffectCloudEntity;
-import net.minecraft.entity.boss.dragon.EnderDragonEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsage;
-import net.minecraft.item.Items;
-import net.minecraft.potion.PotionUtil;
-import net.minecraft.potion.Potions;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.stat.Stats;
 import net.minecraft.tag.FluidTags;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
@@ -22,8 +16,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.RaycastContext;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
-
-import java.util.List;
 
 public class TeaKettle extends Item{
 

@@ -21,5 +21,6 @@ public class BrewProjectMod implements ModInitializer {
         // This block runs when the game reaches a mod-loading state.
         BrewProjectItems.registerItems();
         BrewProjectBlocks.registerBlocks();
+        BrewProjectDrinkables.RegisterDrinkables();
     }
 }
