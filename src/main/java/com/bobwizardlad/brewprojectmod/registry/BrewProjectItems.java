@@ -2,6 +2,8 @@ package com.bobwizardlad.brewprojectmod.registry;
 
 import com.bobwizardlad.brewprojectmod.BrewProjectMod;
 import com.bobwizardlad.brewprojectmod.itemclass.*;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -17,11 +19,14 @@ public class BrewProjectItems {
     public static final Item TEA_KETTLE_COLD = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
     public static final Item TEA_KETTLE_HOT = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
 
+    // Drinks
+    public static final Item GREEN_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1), new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 0));
+
     // BlockItems
 
 
     public static void registerItems() {
-        // Call the registry to register items here
+        // Call the registry to register items
         Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "green_tea_leaf"), GREEN_TEA_LEAF);
         Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "semifermented_tea_leaf"), SEMIFERMENTED_TEA_LEAF);
         Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "fermented_tea_leaf"), FERMENTED_TEA_LEAF);
@@ -30,5 +35,7 @@ public class BrewProjectItems {
         Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "tea_kettle"), TEA_KETTLE);
         Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "tea_kettle_cold"), TEA_KETTLE_COLD);
         Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "tea_kettle_hot"), TEA_KETTLE_HOT);
+        // Call registry to register drinks
+        Registry.register(Registry.ITEM, new Identifier(BrewProjectMod.MOD_ID, "green_tea"), GREEN_TEA);
     }
 }
