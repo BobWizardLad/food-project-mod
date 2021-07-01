@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:clay_ball"
+    },
+    "O": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "brewprojectmod:mug",
+    "count": 1
+  }
+}

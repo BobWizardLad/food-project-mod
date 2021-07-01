@@ -1,6 +1,6 @@
 package com.bobwizardlad.brewprojectmod.registry;
 
-import com.bobwizardlad.brewprojectmod.BrewProjectMod;
+import com.bobwizardlad.brewprojectmod.*;
 import com.bobwizardlad.brewprojectmod.blockclass.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
