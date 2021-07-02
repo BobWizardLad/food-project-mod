@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "brewprojectmod:semifermented_tea_leaf"
+    },
+    {
+      "item": "brewprojectmod:semifermented_tea_leaf"
+    },
+    {
+      "item": "brewprojectmod:semifermented_tea_leaf"
+    },
+    {
+      "item": "brewprojectmod:semifermented_tea_leaf"
+    },
+    {
+      "item": "brewprojectmod:tea_kettle_hot"
+    },
+    {
+      "item": "brewprojectmod:mug"
+    }
+  ],
+  "result": {
+    "item": "brewprojectmod:oolong_tea",
+    "count": 1
+  }
+}

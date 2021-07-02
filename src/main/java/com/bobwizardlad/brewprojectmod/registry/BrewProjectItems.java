@@ -17,12 +17,12 @@ public class BrewProjectItems {
     public static final Item MUG = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(4));
     public static final Item TEA_KETTLE = new TeaKettle(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
     public static final Item TEA_KETTLE_COLD = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
-    public static final Item TEA_KETTLE_HOT = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1));
+    public static final Item TEA_KETTLE_HOT = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1).recipeRemainder(TEA_KETTLE));
 
     // Drinks
-    public static final Item GREEN_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1), new StatusEffectInstance(StatusEffects.SATURATION, 1, 0));
-    public static final Item OOLONG_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP). maxCount(1), new StatusEffectInstance(StatusEffects.SATURATION, 1, 0));
-    public static final Item BLACK_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP). maxCount(1), new StatusEffectInstance(StatusEffects.SATURATION, 1, 0));
+    public static final Item GREEN_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP).maxCount(1), new StatusEffectInstance(StatusEffects.SATURATION, 3, 0));
+    public static final Item OOLONG_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP). maxCount(1), new StatusEffectInstance(StatusEffects.SATURATION, 6, 1));
+    public static final Item BLACK_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP). maxCount(1), new StatusEffectInstance(StatusEffects.SATURATION, 18, 2));
     public static final Item BURNT_TEA = new TeaItem(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP). maxCount(1), new StatusEffectInstance(StatusEffects.NAUSEA, 300, 0), new StatusEffectInstance(StatusEffects.BLINDNESS, 150, 0));
 
     // BlockItems

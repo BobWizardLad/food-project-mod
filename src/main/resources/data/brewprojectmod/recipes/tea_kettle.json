@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    " G ",
     "XOX",
-    " X "
+    "XXX"
   ],
   "key": {
     "X": {
@@ -10,10 +11,13 @@
     },
     "O": {
       "item": "minecraft:light_blue_dye"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {
-    "item": "brewprojectmod:mug",
-    "count": 2
+    "item": "brewprojectmod:tea_kettle",
+    "count": 1
   }
 }

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:cooking",
+  "ingredient": "brewprojectmod:semifermented_tea_leaf",
+  "result": "brewprojectmod:black_tea_leaf",
+  "experience": 0.35
+}
