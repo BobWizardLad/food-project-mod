@@ -1,6 +1,8 @@
 {
-  "type": "minecraft:cooking",
-  "ingredient": "brewprojectmod:black_tea_leaf",
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "brewprojectmod:fermented_tea_leaf"
+  },
   "result": "brewprojectmod:mushy_tea_leaf",
   "experience": 0.35
 }

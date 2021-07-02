@@ -1,6 +1,8 @@
 {
-  "type": "minecraft:cooking",
-  "ingredient": "brewprojectmod:tea_kettle_cold",
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "brewprojectmod:tea_kettle_cold"
+  },
   "result": "brewprojectmod:tea_kettle_hot",
   "experience": 0.35
 }
