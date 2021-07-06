@@ -6,21 +6,12 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionUtil;
-import net.minecraft.potion.Potions;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
-import net.minecraft.util.collection.DefaultedList;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
-
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
 
 public class TeaItem extends Item {
 
@@ -32,10 +23,12 @@ public class TeaItem extends Item {
         teaEffect = effect;
     }
 
+    // Consume on use of item
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         return ItemUsage.consumeHeldItem(world, user, hand);
     }
 
+    // Apply effects and change the item held only if usage of item is finished
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         PlayerEntity playerEntity = user instanceof PlayerEntity ? (PlayerEntity)user : null;
         if (playerEntity instanceof ServerPlayerEntity) {

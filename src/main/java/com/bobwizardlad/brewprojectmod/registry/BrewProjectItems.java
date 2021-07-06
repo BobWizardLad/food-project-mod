@@ -4,13 +4,14 @@ import com.bobwizardlad.brewprojectmod.*;
 import com.bobwizardlad.brewprojectmod.itemclass.*;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class BrewProjectItems {
     // Items
-    public static final Item GREEN_TEA_LEAF = new GreenTeaLeaf(BrewProjectBlocks.GREEN_TEA_BUSH, (new Item.Settings()).group(BrewProjectMod.BREW_ITEM_GROUP));
+    public static final Item GREEN_TEA_LEAF = new AliasedBlockItem(BrewProjectBlocks.GREEN_TEA_BUSH, (new Item.Settings()).group(BrewProjectMod.BREW_ITEM_GROUP));
     public static final Item SEMIFERMENTED_TEA_LEAF = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));
     public static final Item FERMENTED_TEA_LEAF = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));
     public static final Item MUSHY_TEA_LEAF = new Item(new Item.Settings().group(BrewProjectMod.BREW_ITEM_GROUP));

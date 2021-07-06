@@ -5,14 +5,11 @@ import com.bobwizardlad.brewprojectmod.registry.*;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
-import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.loot.condition.EntityPropertiesLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
-import net.minecraft.loot.provider.number.LootNumberProvider;
 import net.minecraft.util.Identifier;
 
 import javax.swing.text.html.parser.Entity;

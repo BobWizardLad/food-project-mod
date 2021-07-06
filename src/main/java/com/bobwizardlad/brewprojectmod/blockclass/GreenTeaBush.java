@@ -22,11 +22,13 @@ public class GreenTeaBush extends SweetBerryBushBlock {
     }
 
     @Override
+    // Tea bush uses Green Tea Leaf as alias item, so return Leaf as picked block
     public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {
         return new ItemStack(BrewProjectItems.GREEN_TEA_LEAF);
     }
 
     @Override
+    // onUse, harvest green tea leaves if AGE is correct
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         int i = (Integer)state.get(AGE);
         boolean bl = i == 3;
