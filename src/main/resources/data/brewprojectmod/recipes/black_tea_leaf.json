@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "brewprojectmod:semifermented_tea_leaf"
+  },
+  "result": "brewprojectmod:fermented_tea_leaf",
+  "experience": 0.35
+}

@@ -1,0 +1,19 @@
+{
+  "item.brewprojectmod.green_tea_leaf": "Green Tea Leaf",
+  "item.brewprojectmod.semifermented_tea_leaf": "Semi-Fermented Tea Leaf",
+  "item.brewprojectmod.fermented_tea_leaf": "Fermented Tea Leaf",
+  "item.brewprojectmod.mushy_tea_leaf": "Mushy Tea Leaf",
+  "item.brewprojectmod.mug": "Mug",
+  "item.brewprojectmod.tea_kettle": "Tea Kettle",
+  "item.brewprojectmod.tea_kettle_cold": "Tea Kettle (Cold Water)",
+  "item.brewprojectmod.tea_kettle_hot": "Tea Kettle (Hot Water)",
+
+  "item.brewprojectmod.green_tea": "Green Tea",
+  "item.brewprojectmod.oolong_tea": "Oolong Tea",
+  "item.brewprojectmod.black_tea": "Black Tea",
+  "item.brewprojectmod.burnt_tea": "Tea?",
+
+  "block.brewprojectmod.green_tea_bush": "Green Tea Bush",
+
+  "itemGroup.brewprojectmod.central": "Brew Project"
+}
